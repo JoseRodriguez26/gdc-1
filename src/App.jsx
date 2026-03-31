@@ -1,44 +1,44 @@
 const catalog = [
   {
     id: 1,
-    title: 'Project Alpha',
-    category: 'Design',
-    description: 'A bold visual identity system built for modern brands.',
+    title: 'Drop 001 — Midnight',
+    category: 'New Release',
+    description: 'Our debut collection. Dark tones, sharp cuts, built for those who move at night.',
     image: 'https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=400&q=80',
   },
   {
     id: 2,
-    title: 'Motion Reel',
+    title: 'Behind the Scenes',
     category: 'Video',
-    description: 'Dynamic motion graphics and animation showcases.',
+    description: 'Go inside the studio. Watch how every piece gets made from sketch to final product.',
     image: 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=400&q=80',
   },
   {
     id: 3,
-    title: 'Type Study',
-    category: 'Typography',
-    description: 'Experimental typeface explorations and layouts.',
+    title: 'The Manifesto',
+    category: 'Editorial',
+    description: 'Why we started, what we stand for, and where this is all going. Read the full story.',
     image: 'https://images.unsplash.com/photo-1618519764620-7403abdbdfe9?w=400&q=80',
   },
   {
     id: 4,
-    title: 'Brand Kit',
-    category: 'Branding',
-    description: 'Complete brand guidelines, colors, and asset libraries.',
+    title: 'Collab: Studio X',
+    category: 'Collaboration',
+    description: 'A limited run with Studio X — only 50 units. Get yours before they\'re gone.',
     image: 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=400&q=80',
   },
   {
     id: 5,
-    title: 'Web Experience',
-    category: 'Development',
-    description: 'Interactive web builds with immersive user experiences.',
+    title: 'Drop 002 — Coming Soon',
+    category: 'Upcoming',
+    description: 'The next chapter drops soon. Sign up to get notified before anyone else.',
     image: 'https://images.unsplash.com/photo-1547658719-da2b51169166?w=400&q=80',
   },
   {
     id: 6,
-    title: 'Photo Series',
+    title: 'The Archive',
     category: 'Photography',
-    description: 'Curated photo collections from campaigns and editorials.',
+    description: 'Every shoot, every campaign, every moment — documented and preserved.',
     image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=400&q=80',
   },
 ]
@@ -58,9 +58,9 @@ export default function App() {
       </header>
 
       <section style={styles.hero}>
-        <p style={styles.heroEyebrow}>Creative Studio</p>
-        <h1 style={styles.heroTitle}>Hello World.</h1>
-        <p style={styles.heroSub}>A curated catalog of work, ideas, and experiments.</p>
+        <p style={styles.heroEyebrow}>Now Live — 2026</p>
+        <h1 style={styles.heroTitle}>We Make Stuff.</h1>
+        <p style={styles.heroSub}>Drops, collabs, editorials, and everything in between. This is the catalog.</p>
       </section>
 
       <section style={styles.catalogSection}>
